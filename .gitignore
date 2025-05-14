@@ -1,0 +1,27 @@
+# Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+.llfproject/
+.llfproject*
+
+# Environment variables
+.env
+
+# VSCode settings (optional if you use it)
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# GitHub Actions log artifacts (optional)
+*.log
+
+# PyCharm files (optional)
+.idea/
