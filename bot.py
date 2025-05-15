@@ -11,6 +11,8 @@ CHAT_ID = os.getenv('CHAT_ID')
 EMAIL = os.getenv('EMAIL')
 PASSWORD = os.getenv('PASSWORD')
 BASE_URL = os.getenv('API_BASE_URL')
+if not BASE_URL:
+    BASE_URL = "http://0.0.0.2:8000"  # Default URL if not set
 API_BASE_URL = BASE_URL + "/api"
 
 
