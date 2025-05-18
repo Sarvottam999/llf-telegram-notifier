@@ -3,7 +3,7 @@ name: Telegram Notification
 on:
   schedule:
     # - cron: '1 0 * * *' 
-    - cron: '0 18 * * *'
+    - cron: '30 18 * * *'#6:30 pm previous day
 
   workflow_dispatch: # Manual trigger
 
